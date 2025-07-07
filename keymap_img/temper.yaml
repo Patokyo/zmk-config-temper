@@ -17,8 +17,8 @@ layers:
     - {t: ⇧, s: ⇪}
     - SPACE
     - BSPC
-    - num
     - nav
+    - num
   game:
   - - ↹
     - '1'
@@ -82,8 +82,8 @@ layers:
     - Ctl+V
     - '0'
     - {t: ▽, type: trans}
-    - {type: held}
     - {t: ▽, type: trans}
+    - {type: held}
   nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -119,8 +119,8 @@ layers:
     - Ctl+V
     - Ctl+X
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
   fun:
   - - {t: game, h: toggle}
     - MUTE
