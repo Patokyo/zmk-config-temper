@@ -21,13 +21,23 @@ layers:
     - {t: default, h: toggle}
   game:
   - - ↹
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - ESC
     - Q
     - W
     - E
     - R
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ↑
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - ⇧
@@ -36,22 +46,12 @@ layers:
     - D
     - F
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - ⌃
-    - Z
-    - X
-    - C
-    - V
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ←
+    - ↓
+    - →
     - {t: ▽, type: trans}
   - - ESC
-    - {t: ▽, type: trans}
+    - ⌃
     - SPACE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -104,17 +104,17 @@ layers:
     - ↓
     - ↑
     - →
-    - {t: ESC, s: '`'}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - RET
+  - - ⇧
+    - ⌃↹
+    - Alt+↹
     - Sft+PSCRN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - RET
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - ESC
   - - Ctl+C
     - Ctl+V
     - Ctl+X
