@@ -53,7 +53,7 @@ layers:
   - - ESC
     - ⌃
     - SPACE
-    - {t: ▽, type: trans}
+    - RET
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   num:
@@ -100,10 +100,10 @@ layers:
     - {t: ⎇, h: sticky}
     - {t: ⌘, h: sticky}
     - {t: ▽, type: trans}
-    - ←
-    - ↓
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - ↑
-    - →
+    - {t: ▽, type: trans}
     - RET
   - - ⇧
     - ⌃↹
@@ -111,9 +111,9 @@ layers:
     - Sft+PSCRN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - ←
+    - ↓
+    - →
     - ESC
   - - Ctl+C
     - Ctl+V
