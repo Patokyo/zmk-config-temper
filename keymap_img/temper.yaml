@@ -106,8 +106,8 @@ layers:
     - {t: ▽, type: trans}
     - RET
   - - ⇧
-    - ⌃↹
-    - Alt+↹
+    - ⌃
+    - ⎇
     - Sft+PSCRN
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -117,7 +117,7 @@ layers:
     - ESC
   - - Ctl+C
     - Ctl+V
-    - Ctl+X
+    - ↹
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
